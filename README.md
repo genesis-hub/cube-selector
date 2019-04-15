@@ -1,6 +1,6 @@
 <!-- ![Screenshot]()  -->
 # Cube-Selector
-### A micro JavaScript library, use to manipulate DOM elements
+#### A micro JavaScript library, use to manipulate DOM elements
 
 ```bash
 git clone https://github.com/genesis-hub/cube-selector.git
