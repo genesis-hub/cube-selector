@@ -12,17 +12,20 @@ $.Extend({JSsyntax: function(el){
 }});
 ```
 ***
-### Installation
-* Download the method you want, add like normal js file or put code in library core
+### Installation 
+* To use these methods, you must first download the library core, connect it, or edit the code, see below:
+1. <script src="cube-selector.js"></script>
+2. <script src="'method'.js"></script>>
 
-### How to use?
-To use these methods, you must first download the library core, connect it, or edit the code, see below:
+
+### How to add?
+To add methods, you can use these references, see below:
 ```bash
-_Cube.fn.method = function(){
+_Cube.fn.'method' = function(){
     //code here
 };
 
-$.Extend({toggle: function(color, element){
+$.Extend({'method': function(color, element){
     //code here
 }});
 
@@ -37,7 +40,7 @@ $.Extend({toggle: function(color, element){
         /* *********************************** */
 
         //like this 
-        hide: function(){
+        'method': function(){
 
         },
 
