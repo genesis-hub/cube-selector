@@ -1,8 +1,9 @@
-![Screenshot](https://avatars1.githubusercontent.com/u/25234221?s=70&v=5) 
-## Cube-selector is small js library.
+![Screenshot]() 
+# Cube-Selector
+## A micro JavaScript library, use to manipulate
 
 ```bash
-git clone git://github.com/genesis-lib/genesis.git
+git clone https://github.com/genesis-hub/cube-selector.git
 ```
 ***
 ## Code Example
@@ -23,9 +24,7 @@ $.Extend({JSsyntax: function(el){
 ## How to use?
 To refer to a library, you can use "$", and if you use jQuery or something similar that uses "$", you can use "Q" for example:
 ```bash
-Q.("#index")  |  G.select("#index")  |  genesis.select("#index")
-G.copy()      |  genesis.copy()  
-G.makeArray() |  genesis.makeArray() 
+
 ```
 ***
 ## License
