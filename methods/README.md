@@ -13,7 +13,7 @@ $.Extend({JSsyntax: function(el){
 ```
 ***
 ### Installation 
-* To use these methods, you must first download the library core, connect it, or edit the code, see below:
+* To use these methods, you must first download the library core, connect it.
 1. <script src="cube-selector.js"></script>
 2. <script src="'method'.js"></script>>
 
