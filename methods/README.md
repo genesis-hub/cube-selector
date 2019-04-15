@@ -13,12 +13,35 @@ $.Extend({JSsyntax: function(el){
 ```
 ***
 ### Installation
-
+* Download the method you want, add like normal js file or put code in library core
 
 ### How to use?
-To refer to a library, you can use "$", and if you use jQuery or something similar that uses "$", you can use "Q" for example:
+To use these methods, you must first download the library core, connect it, or edit the code, see below:
 ```bash
+_Cube.fn.method = function(){
+    //code here
+};
 
+$.Extend({toggle: function(color, element){
+    //code here
+}});
+
+// 90 line in library core 
+   query.prototype = cube.fn = {
+        length: 0,
+
+        /* *********************************** */
+        /* YOU CAN PLACE YOUR OWN METHODS HERE */
+        /* **************  OR  *************** */
+        /*         USE 'EXTEND' METHOD         */
+        /* *********************************** */
+
+        //like this 
+        hide: function(){
+
+        },
+
+    };
 ```
 ***
 ### Disclaimer
