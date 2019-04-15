@@ -6,7 +6,7 @@
 git clone https://github.com/genesis-hub/cube-selector.git
 ```
 <!-- *** -->
-## Code Example
+### Code Example
 ```javascript
 // REFERENCE:
 $("#index").css(); Q("#index") or _Cube("#index").css();
@@ -16,21 +16,21 @@ $.Extend({JSsyntax: function(color, element){
 }});
 ```
 <!-- *** -->
-## Installation
+### Installation
 1. <script src="cube-selector.js"></script>
 2. you can download full size library 
 3. or main file of library and add modules to it
 <!-- *** -->
 
-## How to use?
+### How to use?
 To refer to a library, you can use "$", and if you use jQuery or something similar that uses "$", you can use "Q" for example:
 ```bash
 
 ```
 ***
-## Disclaimer
+### Disclaimer
 This library is in beta, use at your own risk.
 
 ***
-## License
+### License
 MIT © [Matthew]()
