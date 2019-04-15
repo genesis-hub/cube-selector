@@ -26,9 +26,9 @@ _Cube.fn.index = function(e){
 };
 
 if(!_Cube.fn.hasAttr){ 
-    console.log("You need 'hasAttr' metodh");
+    console.log("You need 'hasAttr' method");
 } else if (!_Cube.fn.match) {
-    console.log("You need 'match' metodh");
+    console.log("You need 'match' method");
 };
 
 
