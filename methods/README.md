@@ -46,6 +46,15 @@ $.Extend({'method': function(color, element){
 
     };
 ```
+### Cube-Selector functions:
+* css
+* Extend
+* hasAttr
+* index
+* makeArray
+* match
+* ready
+
 ***
 ### Disclaimer
 This library is in beta, use at your own risk.
