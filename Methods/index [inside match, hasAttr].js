@@ -26,7 +26,6 @@ _Cube.fn.index = function(e){
 };
 
 if(!_Cube.fn.hasAttr){ 
-    console.log("has");
     /* hasAttr returning true or false when attribute exist or not */
     _Cube.fn.hasAttr = function(el){
         var stat = this[0].hasAttribute(el);
@@ -35,10 +34,7 @@ if(!_Cube.fn.hasAttr){
 };
 
 if(!_Cube.fn.match){  
-    /*
-    matching items and returning the index 
-    can be used instead 'index method'  
-    */
+    /* matching items and returning the index  can be used instead 'index method' */
     _Cube.fn.match = function( arr, el ) {
         var i = 0, 
             len = arr.length;
