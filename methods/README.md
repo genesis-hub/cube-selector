@@ -1,10 +1,9 @@
 <!-- ![Screenshot]()  -->
 # Library methods
-## You can add modulets to it
+#### You can add modulets to it
 
-***
 
-## Code Example
+### Code Example
 ```javascript
 //Reference
 $("#index").css(); Q("#index") or _Cube("#index").css();
@@ -13,17 +12,17 @@ $.Extend({JSsyntax: function(el){
 }});
 ```
 ***
-## Installation
+### Installation
 
 
-## How to use?
+### How to use?
 To refer to a library, you can use "$", and if you use jQuery or something similar that uses "$", you can use "Q" for example:
 ```bash
 
 ```
 ***
-## Disclaimer
+### Disclaimer
 This library is in beta, use at your own risk.
-***
-## License
+
+### License
 MIT © [Matthew]()

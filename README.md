@@ -31,6 +31,6 @@ To refer to a library, you can use "$", and if you use jQuery or something simil
 ### Disclaimer
 This library is in beta, use at your own risk.
 
-***
+
 ### License
 MIT © [Matthew]()
