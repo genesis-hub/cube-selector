@@ -1,11 +1,9 @@
-![Screenshot]() 
-# Cube-Selector
-## Library methods
+<!-- ![Screenshot]()  -->
+# Library methods
+## You can add modulets to it
 
-```bash
-git clone 
-```
 ***
+
 ## Code Example
 ```javascript
 //Reference
@@ -23,6 +21,9 @@ To refer to a library, you can use "$", and if you use jQuery or something simil
 ```bash
 
 ```
+***
+## Disclaimer
+This library is in beta, use at your own risk.
 ***
 ## License
 MIT © [Matthew]()

@@ -1,4 +1,4 @@
-![Screenshot]() 
+<!-- ![Screenshot]()  -->
 # Cube-Selector
 ## A micro JavaScript library, use to manipulate DOM elements
 
@@ -27,6 +27,7 @@ To refer to a library, you can use "$", and if you use jQuery or something simil
 ```bash
 
 ```
+***
 ## Disclaimer
 This library is in beta, use at your own risk.
 
