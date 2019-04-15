@@ -1,6 +1,6 @@
 ![Screenshot]() 
 # Cube-Selector
-## A micro JavaScript library, use to manipulate
+## A micro JavaScript library, use to manipulate DOM elements
 
 ```bash
 git clone https://github.com/genesis-hub/cube-selector.git
@@ -8,9 +8,10 @@ git clone https://github.com/genesis-hub/cube-selector.git
 ***
 ## Code Example
 ```javascript
-//Reference
+// REFERENCE:
 $("#index").css(); Q("#index") or _Cube("#index").css();
-$.Extend({JSsyntax: function(el){
+// CODE EXAMPLE:
+$.Extend({JSsyntax: function(color, element){
     //code here
 }});
 ```
@@ -26,6 +27,9 @@ To refer to a library, you can use "$", and if you use jQuery or something simil
 ```bash
 
 ```
+## Disclaimer
+This library is in beta, use at your own risk.
+
 ***
 ## License
 MIT © [Matthew]()
