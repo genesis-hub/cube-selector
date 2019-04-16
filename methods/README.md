@@ -2,7 +2,7 @@
 # Library methods
 #### You can use these modules with the library or add your own functions to it
 
-### Code Example
+### Code Example:
 ```javascript
 //REFERENCE
 Q("#index").'method' or _Cube("#index").'method';
