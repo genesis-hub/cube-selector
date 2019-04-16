@@ -12,8 +12,8 @@ $.Extend({JSsyntax: function(el){
 }});
 ```
 ***
-### Installation 
-1. To use these methods, you must first download the library 'basic', after this you can download method and added to.
+### How to use ?
+To use these methods, you must first download the library 'basic', after this you can download method and added to html page.
 ```HTML 
 <script defer src="cube-selector.basic.js"></script>
 <script src="'method'.js"></script>>
