@@ -22,8 +22,14 @@ var _Cube = (function(root, cube) {
         if(typeof selector === 'string'){          
             var ary = doc.querySelectorAll(selector),
                 len = ary.length;
-            if(len > 1) { // check length of node list if bigger then 1 create array
-                cube.makeArray(ary, this);  
+            if(len > 1) { // check length of node list if bigger then 1 create array 
+                var i = 0, 
+                    fun = this || [];
+                for(i; i < len; i++ ) {
+                    fun[i] = ary[i];
+                    console.log(ary[i])
+                } 
+                return this;
             } else {
                 // if length < 1 first element is equal to first element of node list
                 this[0] = ary[0]; 
@@ -31,6 +37,7 @@ var _Cube = (function(root, cube) {
             this.length = ary.length // array length
         } 
         if(typeof selector === 'function') {
+
             cube.ready(selector); // DOMContentLoaded 
         } 
         if(typeof selector === 'object') {
@@ -53,16 +60,6 @@ var _Cube = (function(root, cube) {
         }
     };
 
-    // return array or object with added elements 
-    cube.makeArray = function (ary, fun){
-        var len = ary.length, 
-            i = 0;  
-            fun = fun || [];
-        for(i; i < len; i++ ) {
-            fun[i] = ary[i];
-        } 
-        return fun;
-    };
 
     query.prototype = cube.fn = {
         length: 0,

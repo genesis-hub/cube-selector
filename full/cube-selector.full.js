@@ -217,6 +217,6 @@ var _Cube = (function(root, cube) {
   
     return cube;
 
-})(this, _JS || {});
+})(this, _Cube || {});
 
 
