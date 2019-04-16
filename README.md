@@ -1,5 +1,5 @@
 <!-- ![Screenshot]()  -->
-# Cube-Selector
+# JS-Selector
 #### A very small JavaScript library, used to refer to DOM elements
 
 ```github
@@ -15,11 +15,11 @@ $.Extend({JSsyntax: function(color, element){
     //code here
 }});
 ```
-
+***
 ### Installation
 1. First you need to download the core or the full version of the library, then put it in the HTML code as below:
 ```HTML 
-<script src="cube-selector_core.js"></script> or <script src="cube-selector_full.js"></script> 
+<script src="js-selector.core.js"></script> or <script src="cube-selector_full.js"></script> 
 ```
 2. If you use the 'core' version, you can use the methods from the [list](https://github.com/genesis-hub/cube-selector/tree/master/methods).
 ### Download
