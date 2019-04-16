@@ -32,7 +32,7 @@ $.Extend({'method': function(color, element){
     //code here
 }});
 
-// 90 line in library core 
+// 90 line in library basic 
 query.prototype = cube.fn = {
     length: 0,
 
