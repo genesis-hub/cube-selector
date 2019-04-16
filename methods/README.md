@@ -55,7 +55,7 @@ $.Extend({'method': function(color, element){
 #### Other:
 * css
 * hasAttr
-* index
+* index (contains match.js method)
 * match
 
 ***
