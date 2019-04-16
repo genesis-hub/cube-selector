@@ -4,7 +4,7 @@
 /****************************/
 
 /* 
-hasAttr returning true or false when attribute exist or not
+hasAttr returns true or false when attribute exist or not
 */
 
 _Cube.fn.hasAttr = function(el){

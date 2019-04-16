@@ -4,7 +4,7 @@
 /****************************/
 
 /*
-returning index of matching element 
+// returns index of matching element
 $(".method_box").index($("#test"))
 $("#test").index(); 
 */
@@ -31,7 +31,7 @@ _Cube.fn.index = function(e){
 /**    YOU CAN DELETE THIS IF YOU   **/
 /**   ALREADY HAVE 'match' METHOD   **/
 
-/* matching items and returning the index can be used instead 'index method' */
+/*returns the index of matching items, can be used instead 'index method' */
 _Cube.fn.match = function( arr, el ) {
     var i = 0, 
         len = arr.length;

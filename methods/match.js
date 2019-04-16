@@ -3,10 +3,7 @@
 /*    ******************    */
 /****************************/
 
-/*
-matching items and returning the index 
-can be used instead 'index method'  
-*/
+/*returns the index of matching items, can be used instead 'index method' */
 _Cube.fn.match = function( arr, el ) {
     var i = 0, 
         len = arr.length;

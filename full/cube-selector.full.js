@@ -111,7 +111,7 @@ var _Cube = (function(root, cube) {
 
         length: 0,
         // css({display : "block"}) 
-        // set css style 
+        // sets css style 
         css: function(prop) {
             var elem = this,
                 len = this.length,

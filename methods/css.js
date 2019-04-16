@@ -4,7 +4,8 @@
 /****************************/
 
 /* 
-css({display : "block"}) 
+css({display : "block"})
+// sets css style  
 */
 
 _Cube.fn.css = function (prop){
