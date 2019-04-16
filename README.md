@@ -2,7 +2,7 @@
 # Cube-Selector
 #### A very small JavaScript library, used to refer to DOM elements
 
-```bash
+```github
 git clone https://github.com/genesis-hub/cube-selector.git
 ```
 
