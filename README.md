@@ -6,7 +6,7 @@
 git clone https://github.com/genesis-hub/cube-selector.git
 ```
 
-### Code Example
+### Code Example:
 ```javascript
 // REFERENCE:
 Q("#index") or _Cube("#index");

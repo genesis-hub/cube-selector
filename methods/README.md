@@ -4,7 +4,7 @@
 
 ### Code Example
 ```javascript
-//Reference
+//REFERENCE
 Q("#index").'method' or _Cube("#index").'method';
 
 // CODE EXTEND:
