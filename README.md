@@ -1,6 +1,6 @@
 <!-- ![Screenshot]()  -->
 # Cube-Selector
-#### A micro JavaScript library, use to manipulate DOM elements
+#### A very small JavaScript library, use to reference DOM elements
 
 ```bash
 git clone https://github.com/genesis-hub/cube-selector.git
@@ -10,7 +10,7 @@ git clone https://github.com/genesis-hub/cube-selector.git
 ```javascript
 // REFERENCE:
 $("#index").css(); Q("#index") or _Cube("#index").css();
-// CODE EXAMPLE:
+// CODE EXTEND:
 $.Extend({JSsyntax: function(color, element){
     //code here
 }});
@@ -18,14 +18,13 @@ $.Extend({JSsyntax: function(color, element){
 <!-- *** -->
 ### Installation
 1. <script src="cube-selector.js"></script>
-2. you can download full size library 
-3. or main file of library and add modules to it
+2. You can download a full-size library or main library file and add modules to it.
 <!-- *** -->
 
 ### How to use?
 To refer to a library, you can use "$", and if you use jQuery or something similar that uses "$", you can use "Q" for example:
-```bash
-
+```javascript
+$(".class").css(); Q(".class").index(Q("#id")) or _Cube("#id").css();
 ```
 ***
 ### Disclaimer
