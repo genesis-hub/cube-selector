@@ -9,7 +9,8 @@ git clone https://github.com/genesis-hub/cube-selector.git
 ### Code Example
 ```javascript
 // REFERENCE:
-Q("#index") or _Cube("#index").css();
+Q("#index") or _Cube("#index");
+
 // CODE EXTEND:
 Q.Extend({JSsyntax: function(color, element){
     //code here

@@ -5,8 +5,10 @@
 ### Code Example
 ```javascript
 //Reference
-$("#index").css(); Q("#index") or _Cube("#index").css();
-$.Extend({JSsyntax: function(el){
+Q("#index").'method' or _Cube("#index").'method';
+
+// CODE EXTEND:
+Q.Extend({JSsyntax: function(color, element){
     //code here
 }});
 ```
