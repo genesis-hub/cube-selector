@@ -17,11 +17,11 @@ $.Extend({JSsyntax: function(color, element){
 ```
 <!-- *** -->
 ### Installation
-
+1. First you need to download the core or the full version of the library, then put it in the HTML code as below:
 ```HTML 
 <script src="cube-selector.js"></script> 
 ```
- You can download a full-size library or main library file and add modules to it.
+2. If you use the 'core' version, you can use the methods from the [list](https://github.com/genesis-hub/cube-selector/tree/master/methods)
 <!-- *** -->
 
 ### How to use?
