@@ -13,21 +13,25 @@ $.Extend({JSsyntax: function(el){
 ```
 ***
 ### Installation 
-* To use these methods, you must first download the library core, after this you can download method and added to.
-1. <script src="cube-selector.js"></script>
-2. <script src="'method'.js"></script>>
+1. To use these methods, you must first download the library 'basic', after this you can download method and added to.
+```HTML 
+<script defer src="cube-selector.basic.js"></script>
+<script src="'method'.js"></script>>
+/* or use CDN */
+<script defer src="https://cdn.jsdelivr.net/gh/genesis-hub/cube-selector/basic/cube-selector.basic.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/genesis-hub/cube-selector/methods/index.js"></script>
+```
 
-
-### How to add?
+### How to add own methods?
 To add methods, you can use these references, see below:
 ```bash
-_Cube.fn.'method' = function(){
-    //code here
-};
-
 $.Extend({'method': function(color, element){
     //code here
 }});
+
+# _Cube.fn.'method' = function(){
+#     //code here
+# };
 
 // 90 line in library core 
    query.prototype = cube.fn = {
@@ -46,7 +50,7 @@ $.Extend({'method': function(color, element){
 
     };
 ```
-### Cube-Selector functions:
+### Cube Selector functions:
 
 #### Built:
 * Extend
