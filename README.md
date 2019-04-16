@@ -17,8 +17,11 @@ $.Extend({JSsyntax: function(color, element){
 ```
 <!-- *** -->
 ### Installation
-1. <script src="cube-selector.js"></script>
-2. You can download a full-size library or main library file and add modules to it.
+
+```HTML 
+<script src="cube-selector.js"></script> 
+```
+ You can download a full-size library or main library file and add modules to it.
 <!-- *** -->
 
 ### How to use?
