@@ -111,6 +111,7 @@ var _Cube = (function(root, cube) {
 
         length: 0,
         // css({display : "block"}) 
+        // set css style 
         css: function(prop) {
             var elem = this,
                 len = this.length,
@@ -122,6 +123,7 @@ var _Cube = (function(root, cube) {
             }   
         },
 
+        // returns the content of the element as text
         text: function () {
             var i = 0,
                 len = this.length,
@@ -139,13 +141,13 @@ var _Cube = (function(root, cube) {
             
         },  
 
-        // hasAttr returning true or false when attribute exist or not
+        // hasAttr returns true or false when attribute exist or not
         hasAttr: function(el){
             var stat = this[0].hasAttribute(el);
             return stat;
         },
 
-        // returning index of matching element
+        // returns index of matching element
         // $(".method_box").index($("#test"))
         // $("#test").index();
         index: function(e){
@@ -164,7 +166,7 @@ var _Cube = (function(root, cube) {
             return this.match(els, x);          
         },
         
-        // matching items and returning the index 
+        // returns the index of matching items
         // can be used instead 'index method' 
         match: function( arr, el ) {
             var i = 0, 
