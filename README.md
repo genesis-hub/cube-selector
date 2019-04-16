@@ -19,7 +19,7 @@ Q.Extend({JSsyntax: function(color, element){
 ### Installation
 1. First you need to download the core or the full version of the library, then put it in the HTML code as below:
 ```HTML 
-<script src="js-selector.core.js"></script> 
+<script src="js-selector.basic.js"></script> 
 /* or use CDN */
 <script src="https://cdn.jsdelivr.net/gh/genesis-hub/cube-selector/basic/cube-selector.basic.js"></script>
 ```
