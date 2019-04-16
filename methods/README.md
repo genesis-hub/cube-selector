@@ -32,26 +32,27 @@ $.Extend({'method': function(color, element){
     //code here
 }});
 
+// 90 line in library core 
+query.prototype = cube.fn = {
+    length: 0,
+
+    /* *********************************** */
+    /* YOU CAN PLACE YOUR OWN METHODS HERE */
+    /* **************  OR  *************** */
+    /*         USE 'EXTEND' METHOD         */
+    /* *********************************** */
+
+    //like this 
+    'method': function(){
+
+    },
+
+};
+
+# Not recommended:
 # _Cube.fn.'method' = function(){
 #     //code here
 # };
-
-// 90 line in library core 
-   query.prototype = cube.fn = {
-        length: 0,
-
-        /* *********************************** */
-        /* YOU CAN PLACE YOUR OWN METHODS HERE */
-        /* **************  OR  *************** */
-        /*         USE 'EXTEND' METHOD         */
-        /* *********************************** */
-
-        //like this 
-        'method': function(){
-
-        },
-
-    };
 ```
 ### Cube Selector functions:
 
