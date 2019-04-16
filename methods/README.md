@@ -30,7 +30,7 @@ To use these methods, you must first download the library 'basic', after which y
 ### How to add own methods ?
 To add methods, you can use these references, see below:
 ```bash
-$.Extend({'method': function(color, element){
+Q.Extend({'method': function(color, element){
     //code here
 }});
 
