@@ -9,13 +9,13 @@ $(".method_box").index($("#test"))
 $("#test").index(); 
 */
 
-_Cube.fn.index = function(e){
+_JS.fn.index = function(e){
     var x, els, target;
     if(!e){
         x = this[0];
         // if has 'class' attribute, target takes this value, if not takes id 
-        target = (this.hasAttr("class") === true) ? '.' + x.className : '#' + x.id; 
-        els = _Cube(target);
+        target = (this[0].hasAttribute("class") === true) ? '.' + x.className : '#' + x.id; 
+        els = _JS(target);
     } else {
         // if the first element not exist, x takes 'e' parameter, 
         // if exist, x take first element of e parameter
@@ -25,11 +25,22 @@ _Cube.fn.index = function(e){
     return this.match(els, x);          
 };
 
-if(!_Cube.fn.hasAttr){ 
-    console.log("You need 'hasAttr' method");
-} else if (!_Cube.fn.match) {
-    console.log("You need 'match' method");
-};
+ 
+/* --------------------------------- */ 
+/*********     CAUTION!      ******* */
+/**    YOU CAN DELETE THIS IF YOU   **/
+/**   ALREADY HAVE 'match' METHOD   **/
 
+/* matching items and returning the index can be used instead 'index method' */
+_JS.fn.match = function( arr, el ) {
+    var i = 0, 
+        len = arr.length;
+    for(; i < len; i++) {
+        if(arr[i] == el){
+            return i;
+        }
+    }
+    return -1; 
+};
 
 
