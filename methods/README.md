@@ -62,6 +62,7 @@ query.prototype = cube.fn = {
 * Extend
 * makeArray
 * ready
+* stopProp
 #### Other:
 * css
 * hasAttr
