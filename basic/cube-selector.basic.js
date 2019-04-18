@@ -86,6 +86,27 @@ var _Cube = (function(root, cube) {
         }
         return lib;
     };
+    
+    // stops before bubbling events
+    cube.stopProp = function(e){
+        if (typeof e.stopPropagation === 'function') {
+            e.stopPropagation();
+            //console.log("prop");
+        } 
+        if (typeof e.cancelBubble !== 'undefined') {
+            e.cancelBubble = true;
+           // console.log("bub");
+        }
+        if (typeof e.preventDefault === 'function') {
+            e.preventDefault();
+           // console.log("pre");
+        }
+        if (typeof e.returnValue !== 'undefined') {
+            e.returnValue = false;
+           //  console.log("ret");
+        }
+    }
+    
 
     query.prototype = cube.fn = {
         length: 0,
