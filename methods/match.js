@@ -3,7 +3,7 @@
 /*    ******************    */
 /****************************/
 
-/*returns the index of matching items, can be used instead 'index method' */
+/* returns the index of matching items, can be used instead 'index method' */
 Q.Extend({
     match: function( arr, el ) {
         var i = 0, 
