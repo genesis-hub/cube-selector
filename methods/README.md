@@ -68,6 +68,8 @@ query.prototype = cube.fn = {
 * hasAttr
 * index (contains match.js method)
 * match
+* on
+* text
 
 ***
 ### Disclaimer
