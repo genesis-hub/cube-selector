@@ -76,4 +76,4 @@ query.prototype = cube.fn = {
 This library is in beta, use at your own risk.
 
 ### License
-MIT © [Matthew](https://github.com/matthew-hub/cube-selector/edit/master/methods/README.md)
+MIT © [Matthew](https://github.com/matthew-hub)
