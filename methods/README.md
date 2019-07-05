@@ -19,8 +19,8 @@ To use these methods, you must first download the library 'basic', after which y
 <script src="cube-selector.basic.js"></script>
 <script src="'method'.js"></script>>
 /* or use CDN */
-<script src="https://cdn.jsdelivr.net/gh/genesis-hub/cube-selector/basic/cube-selector.basic.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/genesis-hub/cube-selector/methods/'method'.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/matthew-hub/cube-selector/basic/cube-selector.basic.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/matthew-hub/cube-selector/methods/'method'.js"></script>
 
 /* *********************************************************** */
 /* 'method' refers to the name of the function you want to add */
@@ -76,4 +76,4 @@ query.prototype = cube.fn = {
 This library is in beta, use at your own risk.
 
 ### License
-MIT © [Matthew]()
+MIT © [Matthew](https://github.com/matthew-hub/cube-selector/edit/master/methods/README.md)
