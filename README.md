@@ -41,4 +41,4 @@ Q(".class").index(Q("#id")) or _Cube("#id").css();
 This library is in beta, use at your own risk.
 
 ### License
-MIT © [Matthew]()
+MIT © [Matthew](https://github.com/matthew-hub/)
